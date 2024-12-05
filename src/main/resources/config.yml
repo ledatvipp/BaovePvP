@@ -1,0 +1,27 @@
+gui-commands:
+  - baovepvp
+  - pvpmode
+  - pvpprotection
+
+pvp-protect-time: 300 # Mặc định nếu không có GUI
+action-bar-message: "&aBạn được bảo vệ khỏi PvP &7(%timeleft%s)"
+
+gui:
+  rows: 3
+  items:
+    - slot: 11
+      type: OAK_LOG
+      amount: 32
+      time: 300
+      display_name: "&aBảo vệ PvP (5 phút)"
+      lore:
+        - "&7Yêu cầu: 32 Gỗ Sồi"
+        - "&7Thời gian bảo vệ: &a5 phút"
+    - slot: 15
+      type: OAK_LOG
+      amount: 128
+      time: 900
+      display_name: "&aBảo vệ PvP (15 phút)"
+      lore:
+        - "&7Yêu cầu: 128 Gỗ Sồi"
+        - "&7Thời gian bảo vệ: &a15 phút"

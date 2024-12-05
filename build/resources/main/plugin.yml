@@ -1,0 +1,6 @@
+name: BaovePvP
+version: '1.0'
+main: org.ledat.baovePvP.BaovePvP
+api-version: '1.19'
+authors: [ zonecluck ]
+website: facebook.com/zonecluck
